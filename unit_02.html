@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" href="css/mustard-ui.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Unit 02</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block input"><form name="form"><input class="ent" type="text" name="text" placeholder="Ручной ввод:"></form></div>
+        <div class="block clear" onclick="one()">C</div>
+        <div class="block back" onclick="back()">&#8592;</div>
+        <div class="block" onclick="insert('+')">+</div>
+        <div class="block" onclick="insert('-')">&#8722;</div>
+        <div class="block" onclick="insert('*')">&#215;</div>
+        <div class="block" onclick="insert('/')">&#247;</div>
+        <div class="block" onclick="insert('7')">7</div>
+        <div class="block" onclick="insert('8')">8</div>
+        <div class="block" onclick="insert('9')">9</div>
+        <div class="block" onclick="insert('(')">(</div>
+        <div class="block" onclick="insert('4')">4</div>
+        <div class="block" onclick="insert('5')">5</div>
+        <div class="block" onclick="insert('6')">6</div>
+        <div class="block" onclick="insert(')')">)</div>
+        <div class="block" onclick="insert('1')">1</div>
+        <div class="block" onclick="insert('2')">2</div>
+        <div class="block" onclick="insert('3')">3</div>
+        <div class="block result" data = "13" onclick="result() ">=</div>
+        <div class="block zero" onclick="insert('0')">0</div>
+        <div class="block" onclick="insert('.')">.</div>
+        <!-- <div class="block clear" onclick="clear()">c</div> -->
+    </div>
+
+    <script src="unit_02.js"></script>
+</body>
+
+</html>
